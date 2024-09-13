@@ -88,9 +88,11 @@ const Footer = () => {
         </div>
         <form
           onSubmit={() => {}}
-          className="flex-1 md:flex-none w-[300px] grid gap-4 "
+          className="flex-1 md:flex-none md:w-[300px] grid gap-4 "
         >
-          <h4 className="text-3xl">Subscribe to Our Newsletter?</h4>
+          <h4 className="text-3xl text-center md:text-left">
+            Subscribe to Our Newsletter?
+          </h4>
           <div className="flex py-2 border-b border-zinc-800">
             <input
               type="text"
